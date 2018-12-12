@@ -1,14 +1,296 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: #cccccc;
+  height: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#navbar{
+  color:white;
+  font-size: 17px;
+  font-weight: 500;
+  font-family:sans-serif;
+  
 }
+#navbar li{
+  margin-right: 20px;
+}
+#brand-icaon{
+  border-radius: 100%;
+  border: 1px;
+  color: black;
+  background-color:white;
+  padding: 4px;
+}
+.map{
+  width: 330px;
+  height: 150px;
+  border: 1px;
+  margin-top: -15px;
+  background-color: white;
+}
+.profile-pic{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  }
+  #carouselExampleIndicators{
+  }
+  .carousel-inner{
+    height: 220px;
+  
+  }
+  .carousel-item img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .profile-background{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .profile{
+    margin-top: -35px;
+  }
+
+
+  .card-b{
+    width: 300px;
+    height: 460px;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 16px 10px rgba(0, 0 , 0, 0.2);
+  }
+  .card-img{
+        width: 270px;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: -20px;
+    z-index:1;
+    cursor: pointer;
+    transform: translate(-50% , calc(-50% -40px));
+      box-shadow: 0 20px 10px -10px rgba(0, 0 , 0, 0.2);
+  }
+  .body-card{
+    margin: 15px;
+    color: darkgray;
+    height: auto;
+   
+  }
+  .amma{
+    background-color: darkgreen;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 3px;
+  }
+  #view{
+    margin-left: 125px;
+    padding: 5px;
+    width: 38%;
+    
+  }
+  .rating{
+    position: absolute;
+    margin-left: 6px;
+    margin: 2px;
+  }
+
+
+  ul.product li {
+    list-style: none;
+    flex: auto;
+    margin-bottom: 20px;
+    
+  }
+   .product{
+    display: grid;
+    grid-gap: 55px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+  .card-algain{
+    margin-top: 80px;
+    margin-left: 25px;
+  }
+  .main-img{
+    width:560px;
+    height: 500px;
+    margin-left: 15px;
+  }
+  .main-img img{
+    width:540px;
+    height: 460px;
+    
+  }
+  #sub-img{
+    width: 165px;
+    height: 100px;
+    margin-left: 10px;
+    
+  }
+  .img-sub{
+    margin-left: 15px;
+    margin-top: -30px;
+  }
+  .image-gallery{
+    margin-top: 20px;
+  }
+  .product-info{
+    margin-top: 20px;
+    color: darkgray;
+    margin-left: 40px;
+  }
+  .price{
+    margin-bottom: 20px;
+  }
+  .count-rating{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: green
+  }
+  .rating-individual{
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 40px;
+  }
+  .counter-button{
+    width: 50px;
+    color: #fff;
+    background-color:#36383a;
+    font-size: 25px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2)
+  }
+  .counter{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  .count-nu{
+    padding: 20px;
+    margin:15px;
+  }
+  .cart-buttons{
+width: 100%;
+padding: 10px;
+  }
+  #c-btn{
+    padding: 10px;
+    margin-left: 20px;
+    width: 190px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(255, 180, 0);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2)
+  }
+  
+  #c-btn1{
+    padding: 10px;
+    margin-left: 15px;
+    width: 190px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: green;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2)
+  }
+
+  .mycartTitle{
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    padding: 5px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+  }
+  .listItems{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+  }
+  .img-class{
+    width: 100px;
+    height: 80px;
+  }
+#btn-rem{
+width: 180px;
+margin-left: 8px;
+border: none;
+outline: none;
+background-color:red;
+color: #fff;
+padding: 4px;
+border-radius: 5px;
+box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+#cartlink{
+  text-decoration:none !important;
+}
+
+#button-c{
+  width: 250px;
+  height: 40px;
+  padding: 5px;
+  font-size: 20px;
+  background-color:green;
+  color: white;
+  margin-left: 300px;
+}
+#profile-img{
+  width: 160px;
+  height: 160px;
+  border: 1px;
+  margin-top: -80px;
+  margin-left: 50px;
+  
+}
+#profile-name{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:600;
+  color: gray;
+  margin-left: 30px;
+}
+.address-profile{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+  .content{
+    margin-left: 30px;
+
+  }
+  .cart-indicatore{
+    width: 8px;
+    height: 4px;
+    background-color: red;
+    padding: 2px;
+    border-radius: 100%;
+    color: #fff;
+  }
+  
+  
+ 
+
+  
